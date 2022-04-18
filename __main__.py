@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     ### Security Group ###
  
-    securityGroup1= SecurityGroup("securityGroup1", SecurityGroupArgs("Enable HTTP access", 
+    securityGroup1= SecurityGroup("securityGroup1", SecurityGroupArgs("ssh access", 
             vpc_id=vpc1.vpc.id,
              ingress=[
         { 'protocol': 'tcp', 'from_port': 22, 'to_port': 22, 'cidr_blocks': [vpc1.vpc.cidr_block] }
