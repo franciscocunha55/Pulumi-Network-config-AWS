@@ -5,10 +5,20 @@ This project contains a minimal network infrastructure (AWS Cloud) based on Pulu
 The guideline for elaboration was to create the class for each resource wanted and posteriorly instanciate in the main file with the desired arguments.
 <p>
 
-To run this project, assuming the Pulumi CLI and Python is installed:
+To run this project:
+   
+   # Prerequisites 
+      
+      1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
+      2. [Configure Pulumi for AWS](Configure Pulumi for AWS)
+      3. [Configure Pulumi for Python](https://www.pulumi.com/docs/intro/languages/python/)
+      
+ </br>
+ 
+ # Run in cmd
+ 
    ```
-  $ pipenv install
   $ pulumi stack init dev
   $ pulumi config set aws:region AWS_REGION
-  $ pipenv run pulumi up
+  $ pulumi up
   ```
