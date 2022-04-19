@@ -7,15 +7,15 @@ The guideline for elaboration was to create the class for each resource wanted a
 
 To run this project:
    
-   # Prerequisites 
+   ### Prerequisites 
       
-      1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
-      2. [Configure Pulumi for AWS](Configure Pulumi for AWS)
-      3. [Configure Pulumi for Python](https://www.pulumi.com/docs/intro/languages/python/)
+     
+   1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
+   2. [Configure Pulumi for AWS](https://www.pulumi.com/registry/packages/aws/installation-configuration/)
+   3. [Configure Pulumi for Python](https://www.pulumi.com/docs/intro/languages/python/)
       
- </br>
  
- # Run in cmd
+ ### Run in cmd
  
    ```
   $ pulumi stack init dev
