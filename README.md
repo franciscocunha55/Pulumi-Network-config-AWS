@@ -9,6 +9,6 @@ To run this project, assuming the Pulumi CLI and Python is installed:
    ```
   $ pipenv install
   $ pulumi stack init dev
-  $ pulumi config set aws:region us-west-2
+  $ pulumi config set aws:region AWS_REGION
   $ pipenv run pulumi up
   ```
