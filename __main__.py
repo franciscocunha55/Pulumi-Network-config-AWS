@@ -5,7 +5,7 @@ import base64
 from os import path
 import pulumi
 from pulumi import export
-from pulumi.resources.ec2_route import Route, RouteArgs
+from resources.ec2_route import Route, RouteArgs
 from resources.iam_role_class import IAM_Role, IAM_Role_Args
 from resources.securityGroup_class import Ingress, IngressArgs, SecurityGroup, SecurityGroupArgs
 from resources.transit_gateway import Tgw_attachment, Tgw_attachmentArgs
