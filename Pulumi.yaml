@@ -1,6 +1,0 @@
-name: python_1
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Network configuration with AWS Python Pulumi
